@@ -1,6 +1,38 @@
-# Project Overview
 
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
+# Project 6  - frontend-nanodegree-feedreader
+
+## Project Overview
+
+Add Jasmine tests to an existing jasmine test suite.
+
+### The tests
+
+1. Write a test that loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty.
+1. Write a test that loops through each feed in the allFeeds object and ensures it has a name defined and that the name is not empty.
+1. Write a new test suite named "The menu".
+1. Write a test that ensures the menu element is hidden by default.
+1. Write a test that ensures the menu changes visibility when the menu icon is clicked. 
+1. Write a test that ensures when the loadFeed function is called and completes its work.
+1. Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes.
+
+## To Run tests
+
+Clone the project and open the file index.html.
+Tests are executed when index.html is opened or re-loaded.
+
+## References
+
+* [Jasmine Behaviour-Driven JavaScript, Documentation](http://jasmine.github.io/2.1/introduction.html)
+
+
+
+
+# Problem Description from Udacity - Project Overview
+
+In this project you are given a web-based application that reads RSS feeds. The original developer of this application 
+clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing 
+their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an 
+application with an incomplete test suite. That's where you come in.
 
 
 ## Why this Project?
